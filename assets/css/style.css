@@ -1,0 +1,135 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #280044ec;
+    color: #ffffff;
+    text-align: justify;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    background-color: #280044ec;
+    color: #ffffff;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #280044ec;
+    color: #ffffff;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    background-color: #280044ec;
+    color: #ffffff;
+    text-align: center;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+    background-color: #280044ec;
+    color: #ffffff;
+    
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    text-align: left;
+}
+figure {
+    text-align: center;
+}
+.cover-art{
+    text-align: center;
+}
+.image-container{
+    text-align: center;
+}
+
+#image-gp01, #image-gp02, #image-netflix{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+  }
+  
+  th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    width: 70%;
+  }
+  
+  th {
+    background-color: #ffffff9d;
+    width: auto;
+  }
+
+  #score-table{
+    float: right;
+    clear: right;
+    margin: 0 1em 1em;
+    text-align: center;
+    padding: 0;
+  }
+
+  .details {
+    border-left: solid 1px #cdcdcd;
+    text-align: left;
+}
+
+blockquote {
+    overflow: hidden;
+    margin: 1em 0;
+    padding: 0 40px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    float: right;
+    clear: right;
+}
+.quote {
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 88%;
+    max-width: 41%;
+}
+.plot-image{
+    border: 1px solid #c8ccd1;
+    font-size: 100%;
+    padding: 3px;
+    text-align: center;
+    overflow: hidden;
+    float: right;
+    clear: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.thumb-michael{
+    font-size: 75%;
+    padding: 3px;
+    text-align: center;
+    overflow: hidden;
+    max-width: 165px;
+}
+
+.list{
+    line-height: 1.35;
+}
